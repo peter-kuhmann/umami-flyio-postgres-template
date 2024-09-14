@@ -1,0 +1,6 @@
+fly.toml.template
+fly.toml
+.git
+.idea
+.vscode
+umami-x-flyio.png
