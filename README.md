@@ -69,11 +69,11 @@ downsides:
 
 # 📝 Set Up
 
-## Optional: Fork repository
+## Preparation: Clone the repository
 
-If you want, you can fork this repository.
-
-Fork it via the following link: [https://github.com/peter-kuhmann/umami-flyio-template/fork](https://github.com/peter-kuhmann/umami-flyio-template/fork)
+```bash
+git clone https://github.com/peter-kuhmann/umami-flyio-template.git
+```
 
 ## Step 1: Copy config template
 
@@ -84,8 +84,10 @@ cp fly.toml.template fly.toml
 ```
 
 **Attention**: The `.gitignore` causes the `fly.toml` to be not
-versioned by git. If you consciously want to commit your final
-`fly.toml`, remove it from the `.gitignore`.
+versioned by git.
+
+If you have created a dedicated repository and consciously want to commit
+your final`fly.toml`, remove it from the `.gitignore`.
 
 ## Step 2: Launch app without deploy
 
