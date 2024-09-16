@@ -18,9 +18,10 @@ This repo features a [Fly.io](https://fly.io) configuration template that allows
 * [📖 Table Of Contents](#-table-of-contents)
 * [ℹ️ General](#ℹ-general)
 * [👀 Comparison With Umami Cloud](#-comparison-with-umami-cloud)
+* [📺 YouTube Video](#-youtube-video)
 * [🛠️ Requirements](#-requirements)
 * [📝 Set Up](#-set-up)
-  * [Optional: Fork repository](#optional-fork-repository)
+  * [Preparation: Clone the repository](#preparation-clone-the-repository)
   * [Step 1: Copy config template](#step-1-copy-config-template)
   * [Step 2: Launch app without deploy](#step-2-launch-app-without-deploy)
   * [Step 3: Set `APP_SECRET`](#step-3-set-app_secret)
@@ -61,6 +62,11 @@ downsides:
 - no dedicated database backup strategy (only the Fly volume snapshots)
 - does not scale automatically (you have to increase the Fly machine and volume when necessary)
 - no automatic updates
+
+# 📺 YouTube Video
+
+I uploaded a video to YouTube covering the setup:
+[https://www.youtube.com/watch?v=fWUnBePxsmg](https://www.youtube.com/watch?v=fWUnBePxsmg)
 
 # 🛠️ Requirements
 
