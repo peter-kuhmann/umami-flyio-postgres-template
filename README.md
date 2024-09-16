@@ -1,4 +1,4 @@
-![Umami Logo x Fly.io Logo](./umami-x-flyio.png)
+![Umami Logo x Fly.io Logo](./header.png)
 
 # Umami Fly.io Template
 
